@@ -24,6 +24,8 @@ sudo apt update
 sudo apt upgrade
 sudo apt install arp-scan jq
 ```
+#### Также можно arp-scan установить по [ссылке](https://github.com/royhills/arp-scan.git) в случае ошибки "Невозможно найти пакет arp-scan"
+
 ```bash
 # Для CentOS/RHEL
 sudo yum install arp-scan jq
