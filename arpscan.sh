@@ -5,6 +5,7 @@ set -e
 
 echo "Установка git wget"
 sudo apt install git wget build-essential
+sudo apt install libpcap-dev jq
 
 echo "<=====================>"
 # Создаем временную директорию и работаем в ней
