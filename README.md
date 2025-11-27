@@ -22,11 +22,15 @@ LNS (Local Network Scanner) - это простой, но мощный bash-ск
 # Установите необходимые пакеты (Debian/Ubuntu)
 sudo apt update
 sudo apt upgrade
-sudo apt install arp-scan jq
+sudo apt install arp-scan jq libpcap-devel
 ```
 ```bash
 # Для CentOS/RHEL
-sudo yum install arp-scan jq
+sudo yum install arp-scan jq libpcap-devel
+```
+```bash
+# Для новых версий Fedora:
+sudo dnf install arp-scan jq libpcap-devel
 ```
 
 #### Также можно arp-scan установить по [ссылке](https://github.com/royhills/arp-scan.git) в случае ошибки "Невозможно найти пакет arp-scan" или запустить скриптом
